@@ -1,0 +1,25 @@
+{
+  "name": "webdriverio-bdd",
+  "version": "1.0.0",
+  "description": "WebdriverIO BDD Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.39.1",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/spec-reporter": "^8.39.0",
+    "@wdio/sync": "^7.27.0",
+    "chromedriver": "^126.0.4",
+    "fs-extra": "^11.2.0"
+  },
+  "dependencies": {
+    "log4js": "^6.9.1"
+  }
+}
