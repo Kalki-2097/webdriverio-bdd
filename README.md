@@ -26,4 +26,4 @@ Before running the tests, ensure you have the following installed:
 To execute the automated tests, open a terminal or command prompt and navigate to the project directory. Then run the following command:
 
 ```sh
-npx wdio run ./support/wdio.conf.js
+npx wdio run wdio.conf.js
